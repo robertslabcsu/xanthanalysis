@@ -1,0 +1,8 @@
+name: xanthanalysis
+channels: [conda-forge, bioconda]
+dependencies:
+  - python>=3.10
+  - blast
+  - pip
+  - pip:
+    - typer[all]
